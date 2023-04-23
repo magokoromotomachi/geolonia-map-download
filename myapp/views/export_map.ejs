@@ -8,16 +8,16 @@
 </head>
 <body>
 
-<p>/export-map?lat=緯度&lng=経度&zoom=倍率</p>
+     <p>/export-map?lat=緯度&lng=経度&zoom=倍率</p>
 
-<div id="map"
-     data-lat="<%= lat || "34.704395" %>"
-     data-lng="<%= lng || "135.494771" %>"
-     data-zoom="<%= zoom || "14" %>"
-></div>
+     <div id="map"
+          data-lat="<%= lat || "34.704395" %>"
+          data-lng="<%= lng || "135.494771" %>"
+          data-zoom="<%= zoom || "14" %>"
+     ></div>
 
-<script type="text/javascript" src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
-<!-- <script src="/javascripts/create_map.js"></script> -->
-<script src="/javascripts/export_map_bundle.js"></script>
+     <script type="text/javascript" src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+     <!-- <script src="/javascripts/create_map.js"></script> -->
+     <script src="/javascripts/export_map_bundle.js"></script>
 </body>
 </html>

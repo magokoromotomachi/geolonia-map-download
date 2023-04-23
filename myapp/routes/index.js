@@ -28,4 +28,11 @@ router.get('/business-map', function(req, res, next) {
   });
 });
 
+/* GET business-map page. */
+router.get('/3d-map', function(req, res, next) {
+  res.render('3d_map', { 
+    title: 'Express',
+  });
+});
+
 module.exports = router;
