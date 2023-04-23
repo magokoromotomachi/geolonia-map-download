@@ -28,9 +28,16 @@ router.get('/business-map', function(req, res, next) {
   });
 });
 
-/* GET business-map page. */
+/* GET 3d-map page. */
 router.get('/3d-map', function(req, res, next) {
   res.render('3d_map', { 
+    title: 'Express',
+  });
+});
+
+/* GET canvas-download page. */
+router.get('/canvas-download', function(req, res, next) {
+  res.render('canvas_download', { 
     title: 'Express',
   });
 });
